@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Personal Information</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="../images/logo.svg" alt=""></div>
+        <div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+        <a href="../index.html"><button class="sec-btn">Sign out</button></a>
+        </div>
+    </nav>
+    <section> 
+        <div class="casses">
+            <nav class="col-3">
+                <ul>
+                    <li><a href="registration.html"> Register New Client </a></li>
+                    <h3>Case Forms</h3>
+                    <li><a href="#">Personal Information</a></li>
+                    <li><a href="risk_fact.html">Risk Factor</a></li>
+                    <li><a href="hepb.html">Hepatitis B</a></li>
+                    <li><a href="cong_syphilis.html">Congenital Syphilis</a></li>
+                    <li><a href="sti.html">Chlamydia & Gonorrhea</a></li>
+                </ul>
+            </nav>
+        </div>
+        <article class="col-9">
+            <form action="#" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name">
+                                     
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="occupation">Occupation:</label>
+                <input type="text" id="occupation" name="occupation" required>
+
+                <label for="mothers_name">Mother's Name:</label>
+                <input type="text" id="mothers_name" name="mothers_name" required>
+
+                <label for="mothers_mobile">Mother's Mobile:</label>
+                <input type="tel" id="mothers_mobile" name="mothers_mobile" required>
+
+                <label for="additional_information">Additional Information:</label>
+                <textarea id="additional_information" name="additional_information" rows="4" cols="40"></textarea>
+
+                <button class="sub-btn" type="submit">Submit</button>
+        
+            </form>
+        </article>
+    </section>
+</body>
+</html>

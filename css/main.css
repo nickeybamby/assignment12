@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffebcd;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px; 
+    background-color: #ffffff;   
+}
+
+.navbar li a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: #0c420f;    
+}
+
+.navbar li a:hover {
+    color: #45a049;
+}
+.navbar li a:active {
+    color: #45a049;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: inline-flex;    
+    text-align: right;
+}
+
+.col-3 ul li{
+    border-radius: 3px;
+    background: #39c5b5;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.col-3 ul li a{
+    color: #f2f2f2;
+}
+
+.sec-btn {
+    padding: 10px;
+    background-color: #fff;
+    color: #0c420f;
+    border: 1.5px solid #0c420f;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.sec-btn:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+.casses{
+    padding-top: 50px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+    }
+    
+    [class*="col-"]{
+    float: left;
+    padding: 10px;
+    }
+    
+.col-1{
+    width: 8.33%;
+    }
+    
+.col-2{
+    width: 16.66%;
+    }
+    
+.col-3{
+    width: 25%;
+    }
+    
+.col-4{
+    width: 33.33%;
+    }
+    
+.col-5{
+    width: 41.66%;
+    }
+    
+.col-6{
+    width: 50%;
+    }
+    
+.col-7{
+    width: 58.33%;
+    }
+    
+.col-8{
+    width: 66.66%;
+    }
+    
+.col-9{
+    width: 75%;
+    margin-top: 20px;
+    }
+    
+.col-10{
+    width: 83.33%;
+    }
+    
+.col-11{
+    width: 91.66%;
+    }
+    
+.col-12{
+    width: 100%;
+    }
+
+    /*registration form for new client*/
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.reg-btn {
+    background-color: #45a049;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.reg-btn:hover {
+    background-color: #128c7e;
+}
+
+.sub-btn{
+    margin-top: 20px;
+    background-color: #45a049;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.sub-btn:hover {
+    background-color: #128c7e;
+}
+
+/* styles for risk factors */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
