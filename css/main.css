@@ -47,7 +47,7 @@ ul{
     background: #39c5b5;
     padding: 10px;
     margin-bottom: 10px;
-    width: 200px;
+    max-width: 200px;
 }
 
 .col-3 ul li a{
@@ -140,7 +140,7 @@ form {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
+    max-width: 700px;
 }
 
 label {
@@ -200,4 +200,7 @@ th, td {
 
 th {
     background-color: #f2f2f2;
+}
+.q3{
+    display: inline-flex;
 }
