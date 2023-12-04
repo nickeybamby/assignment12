@@ -31,7 +31,7 @@
             </nav>
         </div>
         <article class="col-9">
-            <form action="#" method="post">
+            <form action="your_submission_endpoint_here" method="post">
                 <label for="patient_name">Patient Name:</label>
                 <input type="text" id="patient_name" name="patient_name" required>
         
@@ -43,23 +43,55 @@
                     <option value="male">Male</option>
                     <option value="female">Female</option>
                     <option value="other">Other</option>
-                </select>
-                <br><br>
+                </select><br><br>
+        
+                <label for="home_address">Home Address:</label>
+                <input type="text" id="home_address" name="home_address">
+        
+                <label for="phone_number">Phone Number:</label>
+                <input type="tel" id="phone_number" name="phone_number">
+        
+                <label for="pregnancy_test_results">Pregnancy Test Results:</label>
+                <select id="pregnancy_test_results" name="pregnancy_test_results">
+                    <option value="na">N/A</option>
+                    <option value="negative">Negative</option>
+                    <option value="unknown">Unknown</option>
+                    <option value="positive">Positive</option>
+                </select><br><br>
+
+                <label for="pregnancy_weeks">If positive, how many weeks?</label>
+                <input type="number" id="pregnancy_weeks" name="pregnancy_weeks" min="1">
+        
+                <label for="reason_for_exam">Reason for Exam:</label>
+
+                <span><input class="chkbx" type="checkbox" id="symptomatic" name="reason_for_exam" value="symptomatic">
+                <label for="symptomatic">Symptomatic</label></span>
+
+                <span><input class="chkbx" type="checkbox" id="routine_exam" name="reason_for_exam" value="routine_exam">
+                <label for="routine_exam">Routine Exam</label></span>
+
+                <span><input class="chkbx" type="checkbox" id="test_for_cure" name="reason_for_exam" value="test_for_cure">
+                <label for="test_for_cure">Test for Cure</label></span>
+
+                <span><input class="chkbx" type="checkbox" id="exposed_to_infection" name="reason_for_exam" value="exposed_to_infection">
+                <label for="exposed_to_infection">Exposed to Infection</label></span>
+
+                <span><input class="chkbx" type="checkbox" id="pregnant" name="reason_for_exam" value="pregnant">
+                <label for="pregnant">Pregnant</label></span><br>
         
                 <label for="test_date">Date of Test:</label>
-                <input type="date" id="test_date" name="test_date" required>
+                <input type="date" id="test_date" name="test_date" required><br><br>
         
                 <label for="test_result">Test Result:</label>
                 <select id="test_result" name="test_result" required>
+                    <option value="na">N/A</option>
                     <option value="positive">Positive</option>
                     <option value="negative">Negative</option>
-                </select>
-                <br><br>
+                </select><br><br>
         
                 <label for="additional_comments">Additional Comments:</label>
-                <textarea id="additional_comments" name="additional_comments" rows="4"></textarea>
-                <br><br>
-                    
+                <textarea id="additional_comments" name="additional_comments" rows="4" cols="48"></textarea>
+                <br><br> 
         
                 <button class="reg-btn" type="submit">Submit</button>
             </form>

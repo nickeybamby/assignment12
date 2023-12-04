@@ -204,3 +204,16 @@ th {
 .q3{
     display: inline-flex;
 }
+
+/* specific styles for chlamydia & gonorrhea*/
+
+.chkbx{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 15px;    
+}
+
+span{
+    display: flex;
+    align-items: center;
+}
