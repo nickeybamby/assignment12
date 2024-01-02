@@ -59,6 +59,11 @@ ul{
     color: white;
 }
 
+.li-btn:hover{
+    background-color: #45a049;
+    color: white;
+}
+
 .sec-btn {
     padding: 10px;
     background-color: #fff;
